@@ -50,7 +50,7 @@
   <body class="font-manrope">
     <!---------- HEADER STARTS ---------->
     <header class="bg-gradient-to-b from-gray-100 to-white">
-      <div class="container mx-auto over">
+      <div class="container mx-auto">
         <!---------- Navigation Bar Start ---------->
         <div class="navbar">
           <!-- Left side navbar items -->
@@ -106,35 +106,32 @@
               </ul>
             </div>
             <!-- Right side navbar items -->
-             <div class=" menu menu-horizontal">
-              <ul
-              class="hidden lg:flex text-base text-gray-400 space-x-1"
-            >
-              <li>
-                <button
-                  class="btn btn-ghost btn-circle border-gray-200 bg-white"
-                >
-                  <i class="fa-solid fa-magnifying-glass text-gray-400"></i>
-                </button>
-              </li>
-              <li>
-                <button
-                  class="btn btn-ghost btn-circle border-gray-200 bg-white"
-                >
-                  <i class="fa-solid fa-cart-shopping text-gray-400"></i>
-                </button>
-              </li>
-              <li>
-                <button class="btn bg-green-btn text-lg rounded-full">
-                  <span class="font-extrabold">Book Consult</span>
-                  <i
-                    class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-2"
-                  ></i>
-                </button>
-              </li>
-            </ul>
-             </div>
-            
+            <div class="menu menu-horizontal">
+              <ul class="hidden lg:flex text-base text-gray-400 space-x-1">
+                <li>
+                  <button
+                    class="btn btn-ghost btn-circle border-gray-200 bg-white"
+                  >
+                    <i class="fa-solid fa-magnifying-glass text-gray-400"></i>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="btn btn-ghost btn-circle border-gray-200 bg-white"
+                  >
+                    <i class="fa-solid fa-cart-shopping text-gray-400"></i>
+                  </button>
+                </li>
+                <li>
+                  <button class="btn bg-green-btn text-lg rounded-full">
+                    <span class="font-extrabold">Book Consult</span>
+                    <i
+                      class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-2"
+                    ></i>
+                  </button>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <!---------- Navigation Bar End ---------->
@@ -174,11 +171,13 @@
 
     <!---------- MAIN STARTS ---------->
     <main>
-      <!-------- About Us Start -------->
       <article class="bg-gray-100">
+        <!-------- About Us Start -------->
         <section class="container mx-auto lg:py-24">
           <div class="hero">
-            <div class="hero-content grid grid-cols-1 lg:grid-cols-2 lg:space-x-3">
+            <div
+              class="hero-content grid grid-cols-1 lg:grid-cols-2 lg:space-x-3"
+            >
               <!-- Text content -->
               <div class="text-center lg:text-left space-y-5">
                 <!-- button -->
@@ -188,54 +187,110 @@
                     About Us</span
                   >
                 </button>
-                <h1 class="text-2xl md:text-3xl lg:text-4xl font-extrabold">We design thoughtful, liveable spaces</h1>
+                <h1 class="text-2xl md:text-3xl lg:text-4xl font-extrabold">
+                  We design thoughtful, liveable spaces
+                </h1>
                 <p>
                   The barn house captivates with its blend of rustic charm and
                   modern sophistication, featuring weathered wood, sleek metal
                   accents.
                 </p>
                 <!-- Cards -->
-                 <div class="text-left grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 space-y-5 md:space-x-5 md:space-y-0 lg:space-x-0 lg:space-y-5">
+                <div
+                  class="text-left grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 space-y-5 md:space-x-5 md:space-y-0 lg:space-x-0 lg:space-y-5"
+                >
                   <!-- Item 1 -->
                   <div class="card card-side bg-base-100 p-3 lg:p-5">
                     <figure>
-                      <img
-                        src="assets/commercial.png"
-                        alt="" />
+                      <img src="assets/commercial.png" alt="" />
                     </figure>
                     <div class="card-body p-3 lg:p-5 w-11/12">
                       <h2 class="card-title text-xl font-bold">Commercial</h2>
-                      <p class="text-gray-600">We transform commercial spaces into dynamic environments that inspire productivity.</p>
+                      <p class="text-gray-600">
+                        We transform commercial spaces into dynamic environments
+                        that inspire productivity.
+                      </p>
                     </div>
                   </div>
                   <!-- Item 2 -->
                   <div class="card card-side bg-base-100 p-3 lg:p-5">
                     <figure>
-                      <img
-                        src="assets/residential.png"
-                        alt="" />
+                      <img src="assets/residential.png" alt="" />
                     </figure>
                     <div class="card-body p-3 lg:p-5 w-11/12">
                       <h2 class="card-title text-xl font-bold">Residential</h2>
-                      <p class="text-gray-600">We create personalized homes where every detail reflects your lifestyle and taste.</p>
+                      <p class="text-gray-600">
+                        We create personalized homes where every detail reflects
+                        your lifestyle and taste.
+                      </p>
                     </div>
                   </div>
-                 </div>
+                </div>
               </div>
               <!-- Image content -->
-               <div class="overflow-hidden rounded-lg">
-                <img class="scale-150 lg:scale-100"
-                src="assets/Rectangle.png"
-                class="w-full "
-              />
-               </div>
-              
+              <div class="overflow-hidden rounded-lg">
+                <img
+                  class="scale-150 lg:scale-100"
+                  src="assets/Rectangle.png"
+                  class="w-full"
+                />
+              </div>
             </div>
           </div>
         </section>
-      </article>
+        <!-------- About Us End -------->
 
-      <!-------- About Us Start -------->
+        <!-------- Counter Start -------->
+        <section class="container mx-auto">
+          <!-- Count -->
+           <div class="bg-base-100 rounded-2xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-10 space-y-3 md:space-y-0">
+              <!-- card 1 -->
+              <div class="card items-center">
+                <div class="w-16">
+                  <img src="assets/feedback.png" alt="">
+                </div>
+                <div class="card-body items-center pt-2">
+                  <h2 class="card-title text-4xl font-extrabold">235+</h2>
+                  <p>Happy Client Review</p>
+                </div>
+              </div>
+              <!-- card 2 -->
+              <div class="card items-center text-center">
+                <div class="w-16">
+                  <img src="assets/building.png" alt="">
+                </div>
+                <div class="card-body items-center pt-2">
+                  <h2 class="card-title text-4xl font-extrabold">50+</h2>
+                  <p>Work Departments</p>
+                </div>
+              </div>
+              <!-- card 3 -->
+              <div class="card items-center text-center">
+                <div class="w-16">
+                  <img src="assets/people.png" alt="">
+                </div>
+                <div class="card-body items-center pt-2">
+                  <h2 class="card-title text-4xl font-extrabold">30k+</h2>
+                  <p>Our Happy Client</p>
+                </div>
+              </div>
+              <!-- card 4 -->
+              <div class="card items-center text-center">
+                <div class="w-16">
+                  <img src="assets/user.png" alt="">
+                </div>
+                <div class="card-body items-center pt-2">
+                  <h2 class="card-title text-4xl font-extrabold">307+</h2>
+                  <p>Staff Members</p>
+                </div>
+              </div>
+            </div>
+           </div>
+          
+        </section>
+        <!-------- Counter End -------->
+      </article>
     </main>
     <!---------- MAIN ENDS ---------->
     <footer></footer>
