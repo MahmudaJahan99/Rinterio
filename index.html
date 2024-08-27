@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Rinterio</title>
 
     <!------------ CDNs ------------>
     <!---------- Fonts ---------->
@@ -41,6 +41,7 @@
           extend: {
             colors: {
               "green-btn": "#ABEF5F",
+              "black-2": "#737373",
             },
           },
         },
@@ -52,19 +53,20 @@
     <header class="bg-gradient-to-b from-gray-100 to-white">
       <div class="container mx-auto">
         <!---------- Navigation Bar Start ---------->
-        <div class="navbar">
+        <nav class="navbar">
           <!-- Left side navbar items -->
           <div class="navbar-start lg:w-1/3">
+            <!-- Logo -->
             <a class="btn btn-ghost text-lg">
               <i
                 class="fa-solid fa-arrow-right -rotate-45 bg-green-btn rounded-full p-2"
               ></i>
-              <span class="text-3xl font-bold">Rinterio</span>
+              <span class="text-3xl font-extrabold">Rinterio</span>
             </a>
           </div>
           <!-- Center navbar items -->
           <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal text-base text-gray-400">
+            <ul class="menu menu-horizontal text-base text-black-2">
               <li class="text-gray-900 font-bold"><a>Home</a></li>
               <li><a>Services</a></li>
               <li><a>Portfolio</a></li>
@@ -72,13 +74,40 @@
               <li><a>Contact Us</a></li>
             </ul>
           </div>
-          <!-- Dropdow in medium/small screen -->
+          <!-- Right side navbar items -->
           <div class="navbar-end">
+            <div class="menu menu-horizontal">
+              <ul class="hidden md:flex text-base text-black-2 space-x-1">
+                <li>
+                  <button
+                    class="btn btn-ghost btn-circle border-gray-200 bg-white"
+                  >
+                    <i class="fa-solid fa-magnifying-glass text-gray-400"></i>
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="btn btn-ghost btn-circle border-gray-200 bg-white"
+                  >
+                    <i class="fa-solid fa-cart-shopping text-gray-400"></i>
+                  </button>
+                </li>
+                <li>
+                  <button class="btn bg-green-btn text-lg rounded-full">
+                    <span class="font-extrabold">Book Consult</span>
+                    <i
+                      class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-2"
+                    ></i>
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <!-- Hamburger -->
             <div class="dropdown dropdown-end">
               <div
                 tabindex="0"
                 role="button"
-                class="btn btn-ghost btn-circle bg-white lg:hidden"
+                class="btn btn-ghost btn-circle bg-white text-black-2 lg:hidden"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -105,35 +134,8 @@
                 <li><a>Contact Us</a></li>
               </ul>
             </div>
-            <!-- Right side navbar items -->
-            <div class="menu menu-horizontal">
-              <ul class="hidden lg:flex text-base text-gray-400 space-x-1">
-                <li>
-                  <button
-                    class="btn btn-ghost btn-circle border-gray-200 bg-white"
-                  >
-                    <i class="fa-solid fa-magnifying-glass text-gray-400"></i>
-                  </button>
-                </li>
-                <li>
-                  <button
-                    class="btn btn-ghost btn-circle border-gray-200 bg-white"
-                  >
-                    <i class="fa-solid fa-cart-shopping text-gray-400"></i>
-                  </button>
-                </li>
-                <li>
-                  <button class="btn bg-green-btn text-lg rounded-full">
-                    <span class="font-extrabold">Book Consult</span>
-                    <i
-                      class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-2"
-                    ></i>
-                  </button>
-                </li>
-              </ul>
-            </div>
           </div>
-        </div>
+        </nav>
         <!---------- Navigation Bar End ---------->
       </div>
 
@@ -720,9 +722,9 @@
     <!---------- MAIN ENDS ---------->
     
     <!---------- FOOTER STARTS ---------->
-    <footer class="footer footer-center bg-black text-primary-content p-10">
+    <footer class="footer footer-center bg-black text-primary-content p-5">
         <!-- logo -->
-        <div class="navbar-start lg:w-2/3">
+        <div class="md:w-2/3 space-y-3">
           <a class="btn btn-ghost text-lg">
             <i
               class="fa-solid fa-arrow-right -rotate-45 bg-green-btn rounded-full p-2 text-black"
@@ -734,8 +736,8 @@
           </p>
         </div>
         <!-- Navigation -->
-        <div class="navbar-center">
-          <ul class="menu menu-horizontal text-base text-gray-400 lg:flex">
+        <div>
+          <ul class="menu menu-horizontal text-base block md:flex">
             <li><a>Home</a></li>
             <li><a>Services</a></li>
             <li><a>Portfolio</a></li>
