@@ -642,7 +642,9 @@
             </p>
           </div>
           <!-- Cards Content for small and medium screen -->
-          <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 p-5 md:p-10 lg:hidden">
+          <div
+            class="grid grid-cols-1 lg:grid-cols-3 gap-5 p-5 md:p-10 lg:hidden"
+          >
             <!-- Card 1 -->
             <div class="card md:card-side bg-base-100 p-5">
               <!-- Image Content -->
@@ -880,13 +882,13 @@
       <!--------  Blogs  End -------->
 
       <!--------  Form  Start -------->
-      <section class="" style="background: url(assets/bg.jpg)">
-        <div class="container mx-auto md:py-16 lg:py-24">
+      <section style="background: url(assets/bg.jpg)">
+        <div class="container mx-auto py-5 md:py-8 lg:py-10">
           <!-- Text content -->
-          <div class="w-3/4 mx-auto text-center space-y-5">
+          <div class="w-11/12 md:w-3/4 mx-auto text-center space-y-5">
             <!-- button -->
             <button class="btn bg-green-btn bg-opacity-30 rounded-full">
-              <span class="font-extrabold">
+              <span class="font-extrabold text-black-1">
                 <i class="fa-solid fa-arrow-right rounded-full pr-2"></i>
                 Let's Connect</span
               >
@@ -894,14 +896,17 @@
             <h1 class="text-2xl md:text-3xl lg:text-4xl font-extrabold">
               Let’s Discuss Next Project
             </h1>
-            <p>
+            <p class="text-black-1 text-sm md:text-base">
               The barn house captivates with its blend of rustic charm and
               modern sophistication, featuring weathered wood, sleek metal
               accents.
             </p>
           </div>
           <!-- Form Content -->
-          <form action="" class="grid grid-cols-1 md:grid-cols-2 gap-5 p-5">
+          <form
+            action=""
+            class="grid grid-cols-1 md:grid-cols-2 gap-5 p-5 mt-5"
+          >
             <input
               type="text"
               name="fname"
@@ -935,7 +940,7 @@
               id=""
               placeholder="Write your message here"
               rows="5"
-              class="p-4 pl-10 rounded-full w-full texrarea md:col-span-2"
+              class="p-4 pl-10 rounded-2xl w-full texrarea md:col-span-2"
             ></textarea>
             <!-- button -->
             <button class="btn md:col-span-2 bg-green-btn text-lg rounded-full">
@@ -953,37 +958,39 @@
 
     <!---------- FOOTER STARTS ---------->
     <footer class="footer footer-center bg-black text-primary-content p-5">
-      <!-- logo -->
-      <div class="md:w-2/3 space-y-3">
-        <a class="btn btn-ghost text-lg">
-          <i
-            class="fa-solid fa-arrow-right -rotate-45 bg-green-btn rounded-full p-2 text-black"
-          ></i>
-          <span class="text-3xl font-bold">Rinterio</span>
-        </a>
-        <p>
-          The barn house captivates with its blend of rustic charm and modern
-          sophistication, featuring weathered wood, sleek metal accents.
-        </p>
-      </div>
-      <!-- Navigation -->
-      <div>
-        <ul class="menu menu-horizontal text-base block md:flex">
-          <li><a>Home</a></li>
-          <li><a>Services</a></li>
-          <li><a>Portfolio</a></li>
-          <li><a>Blogs</a></li>
-          <li><a>Contact Us</a></li>
-        </ul>
-      </div>
-      <!-- button -->
-      <div>
-        <button class="btn bg-green-btn text-lg rounded-full">
-          <span class="font-extrabold">Book Consult</span>
-          <i
-            class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-2"
-          ></i>
-        </button>
+      <div class="container mx-auto py-5 md:py-8 lg:py-10 space-y-3">
+        <!-- logo -->
+        <div class="md:w-5/6 space-y-3">
+          <a class="btn btn-ghost text-lg">
+            <i
+              class="fa-solid fa-arrow-right -rotate-45 bg-green-btn rounded-full p-2 text-black"
+            ></i>
+            <span class="text-3xl font-bold">Rinterio</span>
+          </a>
+          <p class="text-black-1">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+        <!-- Navigation -->
+        <div>
+          <ul class="menu menu-horizontal text-base block md:flex md:gap-7">
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- button -->
+        <div>
+          <button class="btn bg-green-btn text-lg rounded-full">
+            <span class="font-extrabold">Book Consult</span>
+            <i
+              class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-2"
+            ></i>
+          </button>
+        </div>
       </div>
     </footer>
     <!---------- FOOTER ENDS ---------->
