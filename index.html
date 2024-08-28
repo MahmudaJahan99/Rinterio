@@ -600,9 +600,21 @@
             </div>
           </div>
           <div class="flex w-full justify-center gap-5 py-5">
-            <a href="#item1" class="btn bg-green-btn bg-opacity-20 text-black-1 font-extrabold">1</a>
-            <a href="#item2" class="btn bg-green-btn bg-opacity-20 text-black-1 font-extrabold">2</a>
-            <a href="#item3" class="btn bg-green-btn bg-opacity-20 text-black-1 font-extrabold">3</a>
+            <a
+              href="#item1"
+              class="btn bg-green-btn bg-opacity-20 text-black-1 font-extrabold"
+              >1</a
+            >
+            <a
+              href="#item2"
+              class="btn bg-green-btn bg-opacity-20 text-black-1 font-extrabold"
+              >2</a
+            >
+            <a
+              href="#item3"
+              class="btn bg-green-btn bg-opacity-20 text-black-1 font-extrabold"
+              >3</a
+            >
           </div>
         </div>
       </section>
@@ -610,114 +622,255 @@
 
       <!--------  Blogs  Start -------->
       <section class="bg-gray-100">
-        <div class="container mx-auto md:pb-16 lg:pb-24">
+        <div class="container mx-auto py-5 md:py-8 lg:py-10">
           <!-- Text content -->
-          <div class="w-3/4 mx-auto text-center space-y-5">
+          <div class="w-11/12 md:w-3/4 mx-auto text-center space-y-5">
             <!-- button -->
             <button class="btn bg-green-btn bg-opacity-30 rounded-full">
-              <span class="font-extrabold">
+              <span class="font-extrabold text-black-1">
                 <i class="fa-solid fa-arrow-right rounded-full pr-2"></i>
-                Rinterio News</span
+                Rinterio New</span
               >
             </button>
             <h1 class="text-2xl md:text-3xl lg:text-4xl font-extrabold">
               Read Our Articles and News
             </h1>
-            <p>
+            <p class="text-black-1 text-sm md:text-base">
               Stay informed and inspired with our latest articles and news. Dive
               into expert insights, architectural trends, and updates that shape
               the world around us.
             </p>
           </div>
-          <!-- Cards Content -->
-          <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+          <!-- Cards Content for small and medium screen -->
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 p-5 md:p-10 lg:hidden">
             <!-- Card 1 -->
-            <div class="card bg-base-100 p-10">
+            <div class="card md:card-side bg-base-100 p-5">
+              <!-- Image Content -->
               <figure>
-                <img src="assets/article1.png" alt="Shoes" class="rounded-xl" />
+                <img src="assets/article1.png" alt="" class="w-full mx-auto" />
               </figure>
-              <div class="card-body p-0">
-                <p>
+              <div class="md:ml-5">
+                <!-- Date and Author -->
+                <div class="text-black-2">
                   <i class="fa-solid fa-calendar-days pr-2"></i
                   ><small class="pr-3">July14, 2024</small>
                   <i class="fa-regular fa-user pr-2"></i><small>By Admin</small>
-                </p>
-                <h2 class="card-title">
-                  How to choose the furniture right of your home.
-                </h2>
-                <p>
-                  Choosing the right furniture for your home is a blend of
-                  style, functionality, and comfort.
-                </p>
-                <div class="card-actions justify-start">
-                  <button class="">
-                    <span class="font-extrabold">
-                      Read More
-                      <i
-                        class="fa-solid fa-arrow-right -rotate-45 bg-green-btn rounded-full p-2"
-                      ></i
-                    ></span>
-                  </button>
+                </div>
+                <!-- blog desc -->
+                <div class="mt-5 space-y-3">
+                  <h2
+                    class="card-title text-black-1 text-xl md:text-2xl font-extrabold"
+                  >
+                    How to choose the furniture right of your home.
+                  </h2>
+                  <p class="text-black-2">
+                    Choosing the right furniture for your home is a blend of
+                    style, functionality, and comfort.
+                  </p>
+                  <!-- button -->
+                  <div class="card-actions justify-start">
+                    <button class="">
+                      <span class="md:text-xl font-bold">
+                        Read More
+                        <i
+                          class="fa-solid fa-arrow-right -rotate-45 bg-green-btn rounded-full p-2"
+                        ></i
+                      ></span>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
             <!-- Card 2 -->
-            <div class="card bg-base-100 p-10">
+            <div class="card md:card-side bg-base-100 p-5">
+              <!-- Image Content -->
               <figure>
-                <img src="assets/article2.png" alt="Shoes" class="rounded-xl" />
+                <img src="assets/article2.png" alt="" class="w-full mx-auto" />
               </figure>
-              <div class="card-body p-0">
-                <p>
+              <div class="md:ml-5">
+                <!-- Date and Author -->
+                <div class="text-black-2">
                   <i class="fa-solid fa-calendar-days pr-2"></i
                   ><small class="pr-3">July14, 2024</small>
                   <i class="fa-regular fa-user pr-2"></i><small>By Admin</small>
-                </p>
-                <h2 class="card-title">
-                  How to choose the furniture right of your home.
-                </h2>
-                <p>
-                  Choosing the right furniture for your home is a blend of
-                  style, functionality, and comfort.
-                </p>
-                <div class="card-actions justify-start">
-                  <button class="">
-                    <span class="font-extrabold">
-                      Read More
-                      <i
-                        class="fa-solid fa-arrow-right -rotate-45 bg-green-btn rounded-full p-2"
-                      ></i
-                    ></span>
-                  </button>
+                </div>
+                <!-- blog desc -->
+                <div class="mt-5 space-y-3">
+                  <h2
+                    class="card-title text-black-1 text-xl md:text-2xl font-extrabold"
+                  >
+                    How to choose the furniture right of your home.
+                  </h2>
+                  <p class="text-black-2">
+                    Choosing the right furniture for your home is a blend of
+                    style, functionality, and comfort.
+                  </p>
+                  <!-- button -->
+                  <div class="card-actions justify-start">
+                    <button class="">
+                      <span class="md:text-xl font-bold">
+                        Read More
+                        <i
+                          class="fa-solid fa-arrow-right -rotate-45 bg-green-btn rounded-full p-2"
+                        ></i
+                      ></span>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
             <!-- Card 3 -->
-            <div class="card bg-base-100 p-10">
+            <div class="card md:card-side bg-base-100 p-5">
+              <!-- Image Content -->
               <figure>
-                <img src="assets/article3.png" alt="Shoes" class="rounded-xl" />
+                <img src="assets/article3.png" alt="" class="w-full mx-auto" />
               </figure>
-              <div class="card-body p-0">
-                <p>
+              <div class="md:ml-5">
+                <!-- Date and Author -->
+                <div class="text-black-2">
                   <i class="fa-solid fa-calendar-days pr-2"></i
                   ><small class="pr-3">July14, 2024</small>
                   <i class="fa-regular fa-user pr-2"></i><small>By Admin</small>
-                </p>
-                <h2 class="card-title">
-                  How to choose the furniture right of your home.
-                </h2>
-                <p>
-                  Choosing the right furniture for your home is a blend of
-                  style, functionality, and comfort.
-                </p>
-                <div class="card-actions justify-start">
-                  <button class="">
-                    <span class="font-extrabold">
-                      Read More
-                      <i
-                        class="fa-solid fa-arrow-right -rotate-45 bg-green-btn rounded-full p-2"
-                      ></i
-                    ></span>
-                  </button>
+                </div>
+                <!-- blog desc -->
+                <div class="mt-5 space-y-3">
+                  <h2
+                    class="card-title text-black-1 text-xl md:text-2xl font-extrabold"
+                  >
+                    How to choose the furniture right of your home.
+                  </h2>
+                  <p class="text-black-2">
+                    Choosing the right furniture for your home is a blend of
+                    style, functionality, and comfort.
+                  </p>
+                  <!-- button -->
+                  <div class="card-actions justify-start">
+                    <button class="">
+                      <span class="md:text-xl font-bold">
+                        Read More
+                        <i
+                          class="fa-solid fa-arrow-right -rotate-45 bg-green-btn rounded-full p-2"
+                        ></i
+                      ></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Cards Content for large screen -->
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 p-5 md:p-10">
+            <!-- Card 1 -->
+            <div class="card bg-base-100 p-5">
+              <!-- Image Content -->
+              <figure>
+                <img src="assets/article1.png" alt="" class="w-full mx-auto" />
+              </figure>
+              <div>
+                <!-- Date and Author -->
+                <div class="text-black-2">
+                  <i class="fa-solid fa-calendar-days pr-2"></i
+                  ><small class="pr-3">July14, 2024</small>
+                  <i class="fa-regular fa-user pr-2"></i><small>By Admin</small>
+                </div>
+                <!-- blog desc -->
+                <div class="mt-5 space-y-3">
+                  <h2
+                    class="card-title text-black-1 text-xl md:text-2xl font-extrabold"
+                  >
+                    How to choose the furniture right of your home.
+                  </h2>
+                  <p class="text-black-2">
+                    Choosing the right furniture for your home is a blend of
+                    style, functionality, and comfort.
+                  </p>
+                  <!-- button -->
+                  <div class="card-actions justify-start">
+                    <button class="">
+                      <span class="md:text-xl font-bold">
+                        Read More
+                        <i
+                          class="fa-solid fa-arrow-right -rotate-45 bg-green-btn rounded-full p-2"
+                        ></i
+                      ></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card bg-base-100 p-5">
+              <!-- Image Content -->
+              <figure>
+                <img src="assets/article2.png" alt="" class="w-full mx-auto" />
+              </figure>
+              <div class="md:ml-5">
+                <!-- Date and Author -->
+                <div class="text-black-2">
+                  <i class="fa-solid fa-calendar-days pr-2"></i
+                  ><small class="pr-3">July14, 2024</small>
+                  <i class="fa-regular fa-user pr-2"></i><small>By Admin</small>
+                </div>
+                <!-- blog desc -->
+                <div class="mt-5 space-y-3">
+                  <h2
+                    class="card-title text-black-1 text-xl md:text-2xl font-extrabold"
+                  >
+                    How to choose the furniture right of your home.
+                  </h2>
+                  <p class="text-black-2">
+                    Choosing the right furniture for your home is a blend of
+                    style, functionality, and comfort.
+                  </p>
+                  <!-- button -->
+                  <div class="card-actions justify-start">
+                    <button class="">
+                      <span class="md:text-xl font-bold">
+                        Read More
+                        <i
+                          class="fa-solid fa-arrow-right -rotate-45 bg-green-btn rounded-full p-2"
+                        ></i
+                      ></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card bg-base-100 p-5">
+              <!-- Image Content -->
+              <figure>
+                <img src="assets/article3.png" alt="" class="w-full mx-auto" />
+              </figure>
+              <div class="md:ml-5">
+                <!-- Date and Author -->
+                <div class="text-black-2">
+                  <i class="fa-solid fa-calendar-days pr-2"></i
+                  ><small class="pr-3">July14, 2024</small>
+                  <i class="fa-regular fa-user pr-2"></i><small>By Admin</small>
+                </div>
+                <!-- blog desc -->
+                <div class="mt-5 space-y-3">
+                  <h2
+                    class="card-title text-black-1 text-xl md:text-2xl font-extrabold"
+                  >
+                    How to choose the furniture right of your home.
+                  </h2>
+                  <p class="text-black-2">
+                    Choosing the right furniture for your home is a blend of
+                    style, functionality, and comfort.
+                  </p>
+                  <!-- button -->
+                  <div class="card-actions justify-start">
+                    <button class="">
+                      <span class="md:text-xl font-bold">
+                        Read More
+                        <i
+                          class="fa-solid fa-arrow-right -rotate-45 bg-green-btn rounded-full p-2"
+                        ></i
+                      ></span>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
